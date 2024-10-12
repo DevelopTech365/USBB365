@@ -4,7 +4,8 @@
     "description": "",
     "dependencies": {
         "device": "*",
-        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.2.0"
+        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.2.0",
+        "animation": "*"
     },
     "files": [
         "main.blocks",
