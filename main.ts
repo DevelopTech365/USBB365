@@ -1,8 +1,5 @@
 namespace SpriteKind {
     export const Duck = SpriteKind.create()
 }
-scene.setBackgroundColor(1)
-let mySprite = sprites.create(assets.image`Duckey`, SpriteKind.Duck)
-forever(function () {
-    mySprite.setBounceOnWall(true)
-})
+music.play(music.createSoundEffect(WaveShape.Sine, 1, 5000, 200, 200, 2565, SoundExpressionEffect.None, InterpolationCurve.Linear), music.PlaybackMode.UntilDone)
+let mySprite = sprites.create(assets.image`HP`, SpriteKind.Projectile)
